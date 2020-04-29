@@ -10,10 +10,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      香港統計數字
-      <AppMain />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        香港統計數字
+        <AppMain />
+      </div>
+    </BrowserRouter>
   );
 }
 
