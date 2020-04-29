@@ -6,6 +6,7 @@ import {BrowserRouter} from 'react-router-dom';
 import GlobalContextProvider from './context/GlobalContext';
 
 import {AppMain} from './pages';
+import {Footer} from './components'
 
 import './App.sass';
 
@@ -14,13 +15,14 @@ class App extends Component {
   render(){
     return (
       <>
-        <BrowserRouter>
-          <div className="App">
-            <GlobalContextProvider>
+        <GlobalContextProvider>
+          <BrowserRouter>
+            <div className="App">
               <AppMain />
-            </GlobalContextProvider>
-          </div>
-        </BrowserRouter>
+              <Footer/>
+            </div>
+          </BrowserRouter>
+        </GlobalContextProvider>
       </>
     )
   }
