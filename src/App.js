@@ -6,7 +6,8 @@ import {BrowserRouter} from 'react-router-dom';
 import AppMain from './pages/AppMain/AppMain';
 import About from './pages/About/About';
 
-import './App.css';
+import './App.sass';
+// import './App.css';
 
 function App() {
   return (
