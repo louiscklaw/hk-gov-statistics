@@ -11,7 +11,6 @@ class AppHome extends Component{
   render(){
     return(
       <div>
-        <Nav />
         <SearchBox />
         <ApiList />
       </div>

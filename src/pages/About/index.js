@@ -11,7 +11,6 @@ class About extends Component{
 
     return(
       <div>
-        <Nav />
         {/* <ScrollToTop /> */}
         <SearchBox show_search_input={false} />
         <section className="section">
