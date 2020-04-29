@@ -1,6 +1,6 @@
 import React, { Component, useContext } from 'react';
 
-import {TopBar} from '../../components';
+import {Nav} from '../../components';
 
 import {GlobalContext} from '../../context/GlobalContext';
 
@@ -9,7 +9,7 @@ const TestPage = (props) =>{
   console.log(searchString);
   return(
     <div>
-      <TopBar/>
+      <Nav/>
       <div>
         Test Page content
       </div>

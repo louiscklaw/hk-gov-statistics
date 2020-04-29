@@ -1,9 +1,9 @@
 import SearchBox from './section/SearchBox';
 import ApiList from './section/ApiList';
-import TopBar from './section/TopBar';
+import Nav from './section/Nav';
 
 export {
   SearchBox,
   ApiList,
-  TopBar
+  Nav
 }

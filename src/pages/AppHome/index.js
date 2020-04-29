@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import {
   SearchBox,
   ApiList,
-  TopBar
+  Nav
 } from '../../components';
 
 
@@ -11,7 +11,7 @@ class AppHome extends Component{
   render(){
     return(
       <div>
-        <TopBar />
+        <Nav />
         <SearchBox />
         <ApiList />
       </div>

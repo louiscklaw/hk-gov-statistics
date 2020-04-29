@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-import {SearchBox, TopBar} from '../../components';
+import {SearchBox, Nav} from '../../components';
 
 class Stat extends Component{
   render(){
     return(
       <div>
-        <TopBar />
+        <Nav />
         {/* <ScrollToTop /> */}
         <SearchBox show_search_input={false} />
         <section className="section">
