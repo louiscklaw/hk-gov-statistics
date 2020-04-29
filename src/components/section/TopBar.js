@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 
+import {Link} from "react-router-dom";
+
 class TopBar extends Component{
   render(){
     return(
       <div>
         <div>
-          <a href="/">Index</a>
-          <a href='/about'>about</a>
-          <a href="/test">test</a>
-          <a href="/stat">stat</a>
+          <Link to={`/`}>Index</Link>
+          <Link to={`/about`}>about</Link>
+          <Link to={`/testpage`}>test</Link>
+          <Link to={`/stat`}>stat</Link>
         </div>
       </div>
     );

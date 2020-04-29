@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import {SearchBox, TopBar} from '../../components';
 
-// import '../../App.sass';
-
 class About extends Component{
   render(){
     return(

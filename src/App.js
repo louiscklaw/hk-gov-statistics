@@ -3,8 +3,7 @@
 import React from 'react';
 import {BrowserRouter} from 'react-router-dom';
 
-import AppMain from './pages/AppMain/AppMain';
-import About from './pages/About/About';
+import {AppMain} from './pages';
 
 import './App.sass';
 // import './App.css';

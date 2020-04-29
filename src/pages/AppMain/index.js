@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import {Switch, Route} from 'react-router-dom';
 
-import AppHome from '../AppHome/AppHome';
-import About from '../About/About';
-import Stat from '../Stat';
+import {
+  AppHome,
+  About,
+  Stat,
+  TestPage
+} from '../index'
 
 class AppMain extends Component{
   render(){
@@ -21,6 +24,10 @@ class AppMain extends Component{
 
           <Route path="/stat">
             <Stat></Stat>
+          </Route>
+
+          <Route path="/testpage">
+            <TestPage></TestPage>
           </Route>
 
         </Switch>

@@ -1,5 +1,13 @@
-import About from './About/About';
+import AppMain from './AppMain';
+import AppHome from './AppHome';
+import About from './About';
+import Stat from './Stat';
+import TestPage from './TestPage';
 
 export {
-  About
+  AppMain,
+  AppHome,
+  About,
+  Stat,
+  TestPage
 }
