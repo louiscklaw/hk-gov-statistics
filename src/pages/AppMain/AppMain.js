@@ -3,6 +3,7 @@ import {Switch, Route} from 'react-router-dom';
 
 import {SearchBox} from '../../components';
 
+import AppHome from '../AppHome/AppHome';
 import About from '../About/About';
 
 class AppMain extends Component{
@@ -10,6 +11,11 @@ class AppMain extends Component{
     return (
       <>
         <Switch>
+
+          <Route exact path="/">
+            <AppHome></AppHome>
+          </Route>
+
           <Route path="/about">
             {/* <ScrollToTop /> */}
             <SearchBox show_search_input={false} />
@@ -17,6 +23,7 @@ class AppMain extends Component{
               <About />
             </section>
           </Route>
+
         </Switch>
       </>
     )
