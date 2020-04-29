@@ -3,6 +3,26 @@ import React, { Component } from 'react';
 import Nav from './Nav';
 
 class SearchBox extends Component{
+
+
+  getTotalApiCount(){
+    // let api_found_in_dictionary = Object.keys(this.props.api_dictionary).length
+    // return api_found_in_dictionary
+    return 'TODO: getTotalApiCount';
+  }
+
+  showApiFound(){
+    // let api_found_with_criteria = this.props.found_api_number
+    // if (api_found_with_criteria > 0 && this.props.isSearching){
+    //   return (
+    //     `, ${api_found_with_criteria} api found`
+    //   )
+    // }else{
+    //   return (``)
+    // }
+    return "TODO: showApiFound";
+  }
+
   render(){
     return(
       <div>
