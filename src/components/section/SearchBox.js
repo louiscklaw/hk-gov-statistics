@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class About extends Component{
+class SearchBox extends Component{
   render(){
     return(
       <div>
-        About page
+        searchbox
       </div>
     )
   }
 }
 
-export default About;
+export default SearchBox
