@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 
-import {SearchBox, ApiList} from '../../components';
+import {
+  SearchBox,
+  ApiList,
+  TopBar
+} from '../../components';
 
 
 class AppHome extends Component{
   render(){
     return(
       <div>
+        <TopBar />
         <SearchBox />
         <ApiList />
       </div>
