@@ -8,6 +8,7 @@ class TopBar extends Component{
           <a href="/">Index</a>
           <a href='/about'>about</a>
           <a href="/test">test</a>
+          <a href="/stat">stat</a>
         </div>
       </div>
     );
