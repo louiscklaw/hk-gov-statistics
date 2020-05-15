@@ -7,10 +7,15 @@ cache:
   - npm
   - pip
 
-import:
-  - ./credentials.yml
-
 script:
-  - ./rebuild.sh
-  - wget https://raw.githubusercontent.com/louiscklaw/travis-playlist/master/travis-build-merger/merge_if_success.sh
-  - bash merge_if_success.sh | tee merge.log
+  - export
+  - hostname
+  - ./build.sh
+
+import:
+  - credentials.yml
+  - .travis-merger.yml
+
+stages:
+  - Build
+  - Merge
